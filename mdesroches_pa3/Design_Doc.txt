@@ -1,0 +1,29 @@
+##Table of Contents
+1. [How program organizes multiple databases]
+2. [How program organizes multipe tables]
+3. [How program joins two tuples form two source tables]
+
+1. How program organizes multiple databases
+    
+    Program organizes databases as directories in the build folder by checking if databases
+    already exists, if it doesn't it creates a new database with given argument as name
+
+2. How program organizes multipe tables
+    
+    Program organizes tables as .txt files within a given database. First, it checks if the 
+    user is inside of a database. If it is it will parse the commands given, otherwise prompt
+    you to access a database first. Class "Table" holds all the values for the tables that are 
+    created. 
+
+3. How program joins two tuples form two source tables
+
+    Variables are held for the user or .sql input. That input is then tokenized, then sanitized
+    (/r's), then case changed. The input determines what the code will exectute
+    waiting for a .exit command to complete. If the command is "INSERT INTO" the insert handler 
+    will insert data into table if the table is found. Then a query handler outputs the 
+    tuples on which it was commanded to do. First it tokenizes the command, then if the table is 
+    found it compares the two index's of the table accordingly. Then, program joins two tuples 
+    from two source tables depending on the input. 
+
+    for each line of table_CS457_PA3
+        check the condition parsed from the given query
