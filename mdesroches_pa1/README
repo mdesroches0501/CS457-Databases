@@ -1,0 +1,24 @@
+## Table of Contents
+1. [About the Project](#about-the-project)
+1. [Project Status](#project-status)
+1. [Getting Started](#getting-started)
+
+# About the Project
+This is a program that allows a database user to manage the metadata of their relational
+data. By metadata, I mean the database’s own information (e.g., database’s name, creation time, owner) as well
+as the properties of the tables (e.g., table’s names, attributes, constraints).
+
+## Project Status
+The foundations are here and Project 1 requirments seem to have been met accordingly
+
+# Getting Started
+BUILDING:
+To build from scratch: mkdir build; access "build"; "cmake .." to build dependicies
+"make" to build
+
+RUN:
+To run without arg: "./Database"
+To run with arg: "./Database ../tests/PA1_test.sql"
+
+NOTES: 
+Database are created as directories and tables are files within those directories. 

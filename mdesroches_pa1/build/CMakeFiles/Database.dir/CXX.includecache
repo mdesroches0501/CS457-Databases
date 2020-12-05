@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/main.h
+iostream
+-
+string
+-
+stdio.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+unistd.h
+-
+bits/stdc++.h
+-
+regex
+-
+fstream
+-
+cstdint
+-
+
+/home/michael/Documents/CS457 - Databases/mdesroches_pa1/src/main.cpp
+main.h
+/home/michael/Documents/CS457 - Databases/mdesroches_pa1/src/main.h
+

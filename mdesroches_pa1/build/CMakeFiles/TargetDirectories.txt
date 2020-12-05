@@ -1,0 +1,3 @@
+/home/michael/Documents/CS457 - Databases/mdesroches_pa1/build/CMakeFiles/rebuild_cache.dir
+/home/michael/Documents/CS457 - Databases/mdesroches_pa1/build/CMakeFiles/Database.dir
+/home/michael/Documents/CS457 - Databases/mdesroches_pa1/build/CMakeFiles/edit_cache.dir
