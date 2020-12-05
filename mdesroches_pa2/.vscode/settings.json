@@ -1,0 +1,9 @@
+{
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/third-party",
+    "${workspaceFolder}/include"
+  ],
+  "files.associations": {
+    "ostream": "cpp"
+  }
+}

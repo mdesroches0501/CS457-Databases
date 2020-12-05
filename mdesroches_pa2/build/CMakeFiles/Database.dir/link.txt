@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Database.dir/src/database.cpp.o CMakeFiles/Database.dir/src/main.cpp.o CMakeFiles/Database.dir/src/table.cpp.o  -o Database -lpthread 
